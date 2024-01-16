@@ -33,7 +33,7 @@ public class Tests
     [TestCase(39035, 95330)]
     [TestCase(75626, 76652)]
     [TestCase(90783, 98730)]
-    public static void FirstProgram_MaxIntegerByNumDigts_ReturnBool(int in_num, int out_result)
+    public static void FirstProgram_MaxIntegerByNumDigts_ReturnInt(int in_num, int out_result)
     {
         int result = FirstProgram.MaxIntegerByNumDigts(in_num);
         Assert.That(out_result, Is.EqualTo(result));
