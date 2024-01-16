@@ -3,7 +3,7 @@
     public static class FirstProgram
     {
 
-        public static int MaxIntegerByNumDigts(int num)
+        public static int MaxIntegerByDigitsNum(int num)
         {
             char[] arr = num.ToString().ToCharArray();
             Array.Sort(arr);
@@ -22,7 +22,7 @@
         
             int input_num = int.Parse(input_line);
 
-            int result = MaxIntegerByNumDigts(input_num);
+            int result = MaxIntegerByDigitsNum(input_num);
 
             Console.WriteLine(result);
 
